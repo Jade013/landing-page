@@ -1,0 +1,341 @@
+@media (max-width: 768px) {
+    .section1 .header {
+        flex-direction: column;
+    }
+
+    .header.nav {
+        justify-content: center;
+    }
+}
+
+body {
+width: 100%;
+height: 100%;
+margin: 0;
+}
+
+.main.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main.nav-item {
+    width: 100%;
+    min-width: 550px;
+    height: 500px;
+    padding-bottom: 40px;
+}
+
+.main.nav-item.section1 {
+    flex: 1 0 350px;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.section1.header {
+    min-width: 550px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 2px solid white; */
+    width: 60%;
+}
+
+.header.logo {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 24px;
+    min-width: 150px;
+    flex: 1;
+    padding-left: 30px;
+}
+
+.header.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header.nav-item {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin-right: 15px;
+    flex: 1;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+    padding: 5px 6px 5px 6px;
+    border-radius: 15px;
+}
+
+a:hover {
+    color: black;
+    background-color: #9dc5f3;
+}
+
+.section1.content.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    /* border: 2px solid #9dc5f3; */
+    min-width: 550px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    gap: 50px;
+}
+
+.content.nav-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    flex-basis: 500px;
+    width: 100%;
+    /* border: 2px solid #9dc5f3; */
+}
+
+.content.nav-item .text{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    padding-left: 20px;
+    /* border: 2px solid #9dc5f3; */
+}
+
+button.cta-button{
+    background-color: #3882F6;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+
+.content .nav-item #capture_text {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.content .nav-item #text {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+.content.nav-item .img{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    /* border: 2px solid #9dc5f3; */
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    margin-right: 20px;
+}
+
+.main.nav-item #section2{
+    background-color: white;
+    padding-top: 30px;
+}
+
+#section2_header {
+    color: black;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#section2_content_flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 200px;
+    /* border: 2px solid #9dc5f3; */
+}
+
+#section2_content_flex-container div {
+    width: 200px;
+    height:200px;
+    border: 2px solid #9dc5f3;
+}
+
+#section2_label_flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 0;
+    /* border: 2px solid #9dc5f3; */
+}
+
+#section2_label_flex-container div {
+    width: 200px;
+    height:200px;
+}
+
+#section2_label_flex-container p {
+    color: black;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+}
+
+#section3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section3 #section3_quote_block {
+    width: 35%;
+    min-width: 550px;
+    padding-top: 30px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+#section3 #section3_quote_block #quote {
+    color: #1F2937;
+    font-family: 'arial';
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+#section3 #section3_quote_block #author {
+    color: black;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight:900;
+    text-align: right;
+    margin-right: 20px;
+}
+
+#section4 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#section4 #sign_up_block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #3882F6;
+    width: 700px;
+    height: 150px;
+    border-radius: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#section4 .sign_up_block.nav-items {
+    height: 70px;
+    width: 200px;
+}
+
+#ad{
+    flex-grow: 2;
+    padding-left: 70px;
+}
+
+#ad #header {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+#ad #text {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+#btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#sign_up {
+    height: 40px;
+    width: 130px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid white;
+    color: white;
+    font-weight: 700;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+#sign_up:hover {
+    background-color: white;
+    color: #1F2937;
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 14px;
+    text-align: center;
+    padding: 20px;
+}
