@@ -1,1 +1,2 @@
 # landing-page
+This project is a simple landing page built to practice programming with CSS. The goal is to apply fundamental CSS concepts such as layout, styling, and responsiveness. By working on this landing page, you'll gain hands-on experience with CSS selectors, box model, flexbox, and other essential techniques for web design.
